@@ -1,0 +1,50 @@
+
+*{
+  box-sizing: border-box;
+}
+
+h1{
+  background-color: lightblue; 
+  width: 520px;
+  height: 60px;
+  margin: 0;
+}
+.big-container{
+  flex-direction: row;
+  display: flex;
+  margin: 0;
+}
+.container{ 
+  flex-direction: column;
+  display: flex;
+  flex-wrap: wrap;
+}
+.mid-container{
+  display: flex;
+
+  flex-direction: row;
+} 
+
+.pinky{
+  background-color: lightpink;
+  height: 320px;
+  width: 180px;
+}
+.blue{
+  background-color: cadetblue;
+  width: 160px;
+  height: 160px;
+}
+.gold{
+  background-color: gold;
+  width: 160px;
+  height: 160px;
+  margin-left: 20px;
+}
+.orange{
+  background-color: orange;
+  width: 340px;
+  height: 160px;
+
+}
+

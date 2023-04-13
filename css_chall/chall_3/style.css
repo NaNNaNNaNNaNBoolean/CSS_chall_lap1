@@ -1,0 +1,35 @@
+
+
+h1{
+  background-color: lightblue; 
+  flex-direction: row;
+  width: 600px;
+  height: 60px;
+  margin: 0;
+}
+
+.container{
+  display: flex;
+  flex-wrap: nowrap;
+  margin: 0;
+  flex-direction: row;
+}
+.left{
+  background-color: lightpink;
+  height: 300px;
+  width: 400px
+}
+
+.right{
+  background-color: cadetblue;
+  width: 200px;
+  height: 300px;
+}
+
+footer{
+  background-color: darkgray;
+  margin: 0;
+  width: 600px;
+  height: 60px;
+  margin: 0;
+}
